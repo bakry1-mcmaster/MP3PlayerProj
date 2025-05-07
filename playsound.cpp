@@ -6,7 +6,7 @@
 #include "conio.h"
 
 
-#pragma comment(lib, "Winmm.lib")
+#pragma comment(lib, "winmm.lib")
 
 //Use this to compile: g++ mp3file.cpp -o mp3file.exe -lwinmm
 
@@ -66,3 +66,4 @@ int main(void)
     }
     return 0;
 }
+
